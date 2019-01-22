@@ -1,0 +1,89 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package bzoe_5_javapt0;
+
+/**
+ *
+ * @author zoe
+ */
+public class BZoe_5_Javapt0 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+       
+    }
+}
+
+class Lion {
+   
+    int age;
+    String colour;
+    String stripes;
+    String name;
+    String claws;
+
+
+ public Lion(int age, String colour, String stripes, String name, String claws) {
+        this.age = age;
+        this.colour = colour;
+        this.stripes = stripes;
+        this.name = name;
+        this.claws = claws;
+ }        
+
+    public Lion(String claws) {
+        this.claws = claws;
+    }
+    public String getClaws() {
+        return claws;
+    }
+    
+    public int getAge() {
+        return age;
+    }
+
+    public String getColour() {
+        return colour;
+    }
+
+    public String getStripes() {
+        return stripes;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setColour(String colour) {
+        this.colour = colour;
+    }
+
+    public void setStripes(String stripes) {
+        this.stripes = stripes;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setClaws(String claws) {
+        this.claws = claws;
+    }
+
+
+
+    public void sayName() {
+        System.out.println("Hi, I'm a Lion. my name is " + this.name);
+    }
+}
+
